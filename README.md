@@ -14,7 +14,7 @@ public class SumOfDigits {
      */
     public static void main(String[] args) {
         int m,n;
-        int sum=0;
+        int Sum=0;
         Scanner s=new Scanner(System.in)
         System.out.print("Enter the value:");
         m=s.nextInt();
@@ -24,7 +24,7 @@ public class SumOfDigits {
             sum=sum+n;
             m=m/10;
         }
-        System.out.println("Sum Of Digits:"+sum);
+        System.out.println("Sum Of Digits:"+Sum);
             
         }
         // TODO code application logic here
